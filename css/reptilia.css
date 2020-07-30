@@ -4,7 +4,7 @@
     margin-top: 100px;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .sq-img {
@@ -34,6 +34,9 @@
 .padding-div {
     display: none;
 }
+.cont{
+    font-size: 1.2rem;
+}
 
 @media only screen and (min-width: 1200px) {
     .card-deck {
@@ -45,5 +48,10 @@
     }
     .card {
         margin-top: 0;
+    }
+}
+@media screen and (max-width:900px){
+    .con-1{
+        font-size: 1.12rem;
     }
 }

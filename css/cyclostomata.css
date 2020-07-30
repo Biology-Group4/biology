@@ -4,9 +4,10 @@
     margin: auto auto 25px;
 }
 
-.cyclostomata {
+#cyclostomata {
     background-color: #ffffff;
     color: black;
+    padding: 10%;
 }
 
 .cyclo-para {
@@ -29,4 +30,10 @@
     border-radius: 20px;
     width: 60%;
     margin: auto 20%;
+}
+@media  screen and (min-width:1200px){
+.modal-button{
+    border-radius:40px;
+    height: 150%;
+}
 }

@@ -1,17 +1,20 @@
 .team-members {
     background-color: #ffffff;
     color: black;
+    padding: 10% 30%;
+  
 }
 
 .team-title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .team-member {
     text-align: center;
     color: grey;
     margin-top: 20px;
+    text-align: left;
 }
 
 @media only screen and (min-width: 1200px) {

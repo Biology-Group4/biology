@@ -36,7 +36,7 @@
             }
             #cyclostomata {
                 background-color: #ffffff;
-                padding: 50% 20%;
+                padding:  20%;
             }
         }
     </style>
@@ -55,37 +55,41 @@
                 <div class="navbar-collapse collapse" id="navbar-collapsable">
                     <ul class="navbar-nav ml-auto">
                         <li class="navbar-item">
-                            <a href="" class="nav-links">Pisces</a>
+                            <a href="#pisces" class="nav-links">Pisces</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="" class="nav-links">Aves</a>
+                            <a href="#aves" class="nav-links">Aves</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="" class="nav-links">Amphibia</a>
+                            <a href="#amphibia" class="nav-links">Amphibia</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="" class="nav-links">Reptilia</a>
+                            <a href="#reptilia" class="nav-links">Reptilia</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="" class="nav-links">Mammalia</a>
+                            <a href="#mammalia" class="nav-links">Mammalia</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#cyclostomata" class="nav-links">Cyclostomata</a>
                         </li>
                     </ul>
                 </div>
             </nav>
             <!-- Heading -->
             <div class="heading-div">
-                <h1 id="group" style="font-weight: 900;" class="animate__animated animate__backInDown">
-                    Art Integration group 4
+                <h1 id="group" style="font-weight: 900;" class="animate__animated animate__flash">
+                   Diversity In Organisms
                 </h1>
                 <hr />
             </div>
             <!-- Description -->
             <div id="topic">
-                <h2 class="vertebrates">Vertebrates</h2>
+                <h2 class="vertebrates animate__animated animate__swing">Vertebrates</h2>
                 <div class="vertebrate-img">
-                    <img src="vertebrates.jpg" alt="" class="vertebrates-image" />
+                    <img src="images/vertebrates-image.jpg" alt=""
+                        class="vertebrates-image animate__animated animate__lightSpeedInLeft" />
                 </div>
-                <p class="vertebrate-desc">
+                <p class="vertebrate-desc animate__animated animate__lightSpeedInRight">
                     These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle attachment points to be used for movement. Vertebrates are bilaterally symmetrical, triploblastic, coelomic and segmented, with complex
                     differentiation of body tissues and organs.
                 </p>
@@ -120,33 +124,35 @@
             </div>
         </section>
         <!-- Aves -->
-        <section class="aves">
-            <h3 class="aves-title">Aves</h3>
+        <section id="aves">
+            <h3 class="aves-title animate__animated animate__wobble">Aves</h3>
             <div class="grid">
                 <div class="row-no-boots">
-                    <img class="bird first-img" src="images/aves.jpg" alt="" />
-                    <p class="bird-para">
+                    <img class="bird first-img animate__animated animate__backInDown" src="images/aves.jpg" alt="" />
+                    <p class="bird-para animate__animated animate__backInUp">
                         These are warm-blooded animals and have a four-chambered heart. They lay eggs.
                     </p>
                 </div>
                 <div class="row-no-boots">
-                    <img class="bird" src="images/duck.jpg" alt="" />
-                    <p class="bird-para">
+                    <img class="bird animate__animated animate__backInDown" src="images/duck.jpg" alt="" />
+                    <p class="bird-para animate__animated animate__backInUp">
                         There is an outside covering of feathers, and two forelimbs are modified for flight.
                     </p>
                 </div>
                 <div class="row-no-boots">
-                    <img class="bird" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1wVvpnB-7tbH116Abzy7yGW08AoDOxJy9mg&usqp=CAU" alt="" />
-                    <p class="bird-para">
+                    <img class="bird animate__animated animate__backInDown"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1wVvpnB-7tbH116Abzy7yGW08AoDOxJy9mg&usqp=CAU"
+                        alt="" />
+                    <p class="bird-para animate__animated animate__backInUp">
                         They breathe through lungs. All birds fall in this category.
                     </p>
                 </div>
             </div>
         </section>
         <!-- CycloStomata -->
-        <section class="cyclostomata">
+        <section id="cyclostomata">
             <div style="height: 20px;"></div>
-            <h3 style="text-align: center;margin-bottom: 30px;">CycloStomata</h3>
+            <h3 style="text-align: center;margin-bottom: 50px;">CycloStomata</h3>
 
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary modal-button btn-block" data-toggle="modal" data-target="#exampleModal">
@@ -210,13 +216,20 @@
                 </div>
             </div>
         </section>
-        <section class="amphibia">
-            <div style=" background-color: #87DFD6;text-align: center;" class="jumbotron  jb">
-                <h1 style="text-align: center" class="display-4 ">Amphibia</h1>
+        <section id="amphibia">
+            <div style=" background-color: #87DFD6;text-align: center;"
+                class="jumbotron  jb ">
+                <h1 style="text-align: center" class="display-4 animate__animated animate__rollIn">Amphibia</h1>
                 <img class="amp-img" src="images/amphibia.jpg" alt="">
-                <p style=" line-height: 1.5; margin-top: 40px;font-size: 2rem;" class="lead margin-lead">The vertebrate Class Amphibia contains 3 Orders and approximately 7600 species that are distributed globally with the exception of Antarctica.</p>
+                <p style=" line-height: 1.5; margin-top: 40px;font-size: 2rem;"
+                    class="lead margin-lead animate__animated animate__jackInTheBox">The vertebrate Class Amphibia
+                    contains 3 Orders and approximately 7600 species that are distributed globally with the exception of
+                    Antarctica.</p>
                 <hr class="my-4">
-                <p class="amp-cont" style=" line-height: 1.5;font-size: 1.5rem;">These animals differ from the fish in the lack of scales, in having mucus glands in the skin, and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land.
+                <p class="amp-cont animate__animated animate__jackInTheBox"
+                    style=" line-height: 1.5;font-size: 1.5rem;">These animals differ from the fish in the lack of
+                    scales, in having mucus glands in the skin, and a three-chambered heart. Respiration is through
+                    either gills or lungs. They lay eggs. These animals are found both in water and on land.
                     Frogs, toads and salamanders are some examples
                 </p>
                 <p class="lead mg-but">
@@ -224,48 +237,52 @@
                 </p>
             </div>
         </section>
-        <section id="reptilia">
-            <h1 class="rpt" style="font-size: 3rem;height: 60%;font-weight: 700">Reptilia</h1>
-            <div class="card-deck pat-on-every-side">
-                <div class="card">
-                    <img src="images/reptilia.jpg" class="card-img-top sq-img" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">Reptile, any member of the class Reptilia, the group of air-breathing vertebrates that have internal fertilization, amniotic development, and epidermal scales covering part or all of their body.</p>
-
-                    </div>
+    <section id="reptilia">
+        <h1 class="rpt" style="font-size: 3rem;height: 60%;font-weight: 700">Reptilia</h1>
+        <div class="card-deck pat-on-every-side">
+            <div class="card">
+                <img src="images/reptilia.jpg" class="card-img-top sq-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">Reptile, any member of the class Reptilia, the group of air-breathing vertebrates
+                        that have internal fertilization, amniotic development, and epidermal scales covering part or all of
+                        their body.</p>
+    
                 </div>
-                <div class="card">
-                    <img src="images/king-snake.jpg" class="card-img-top sq-img" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">
-                            These animals are cold-blooded, have scales and breathe through lungs. While most of them have a three-chambered heart, crocodiles have four heart chambers.</p>
-
-                    </div>
+            </div>
+            <div class="card">
+                <img src="images/king-snake.jpg" class="card-img-top sq-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text cont con-1">
+                        These animals are cold-blooded, have scales and breathe through lungs. While most of them have a
+                        three-chambered heart, crocodiles have four heart chambers.</p>
+    
                 </div>
-                <div class="card">
-                    <img src="images/turtle.jpg" class="card-img-top sq-img" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">They lay eggs with tough coverings and do not need to lay their eggs in water, unlike amphibians. Snakes, turtles, lizards and crocodiles fall in this category</p>
-
-                    </div>
+            </div>
+            <div class="card">
+                <img src="images/turtle.jpg" class="card-img-top sq-img" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text cont">They lay eggs with tough coverings and do not need to lay their eggs in water,
+                        unlike amphibians. Snakes, turtles, lizards and crocodiles fall in this category</p>
+    
                 </div>
+            </div>
                 <div style="height: 50px;"></div>
             </div>
             <!-- <div style="height: 25px;" class="padding-div"></div> -->
         </section>
         <section id="mammalia">
             <div class="all-about-mammals">
-                <h3 class="mammal-title">Mammalia</h3>
+                <h3 class="mammal-title animate__animated animate__bounceIn">Mammalia</h3>
                 <div class="mammals-img-div">
                     <img class="mammal-img" src="https://gifts.worldwildlife.org/gift-center/Images/extra-large-species-photo/extra-large-Duck-billed-Platypus-photo.jpg" alt="">
                     <img class="mammal-img" src="https://i.pinimg.com/originals/53/0f/88/530f8895bc4b1f0887437d91c19880fe.jpg" alt="">
                     <img class="mammal-img" src="images/meerkat.jpg" alt="">
                 </div>
 
-                <p class="mammal-para">
+                <p class="mammal-para  animate__animated animate__fadeInLeft">
                     Mammals are warm-blooded animals with four-chambered hearts. They have mammary glands for the production of milk to nourish their young. Their skin has hairs as well as sweat and oil glands. Most mammals familiar to us produce live young ones.</p>
                 <p>
                     <button class="btn btn-block btn-primary learn-more-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -286,22 +303,22 @@
                 <h3 class="team-title">Team Members</h3>
                 <div class="team-grid">
                     <div class="team-member">
-                        <h4>1. Krish</h4>
+                        <h4>1. Mubashir Hasan</h4>
                     </div>
                     <div class="team-member">
-                        <h4>2. Mohammed Mubashir Hasan</h4>
+                        <h4>2. Madhav </h4>
                     </div>
                     <div class="team-member">
-                        <h4>3. Shambhavi</h4>
+                        <h4>3. Siddarth </h4>
                     </div>
                     <div class="team-member">
-                        <h4>4. Ankit</h4>
+                        <h4>4.Ankit</h4>
                     </div>
                     <div class="team-member">
-                        <h4>5. Siddarth Govind</h4>
+                        <h4>5.  Krish</h4>
                     </div>
                     <div class="team-member">
-                        <h4>6. Madhav</h4>
+                        <h4>6. Shambhavi</h4>
                     </div>
                 </div>
             </section>
