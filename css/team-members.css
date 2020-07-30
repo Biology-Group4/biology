@@ -1,0 +1,25 @@
+.team-members {
+    background-color: #ffffff;
+    color: black;
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .team-member {
+        margin-top: 5px;
+    }
+}

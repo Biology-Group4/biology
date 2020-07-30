@@ -1,0 +1,91 @@
+#pisces {
+    background-color: #fff;
+    color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+    #pisces {
+        margin-top: 300px;
+    }
+}
+
+.cod {
+    width: 150px;
+    border-radius: 100%;
+    height: 150px;
+    margin-bottom: 10%;
+}
+
+.fishes {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .cod {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 4%;
+    }
+    .fishes {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 4%;
+    }
+}
+
+.fish {
+    text-align: center;
+}
+
+.fish-title {
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+    top: 20px;
+}
+
+.fish-desc {
+    width: 80%;
+    margin: auto 10% 5%;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) {
+    .fish-desc {
+        width: 60%;
+        margin: auto 20% 5%;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
+
+.fish-title h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .fish-title {
+        margin-top: 30%;
+    }
+}
+
+.carousel-item {
+    margin-top: 10%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .fish-title h3 {
+        font-size: 3rem;
+        margin-top: 30%;
+    }
+    .carousel-item {
+        margin-top: 5%;
+    }
+}

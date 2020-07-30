@@ -1,0 +1,173 @@
+.nav-links {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.nav-links:hover {
+    font-weight: 700;
+}
+
+.nav-links,
+.nav-links:hover,
+.nav-links:active,
+.nav-links:visited {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-links {
+        margin: 10px;
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 2.5rem;
+    }
+}
+
+.navbar-item {
+    opacity: 0.5;
+}
+
+.navbar-item::active {
+    opacity: 0.8;
+}
+
+#group {
+    text-align: center;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    width: 80%;
+    margin: 4% 7% 2%;
+    color: #fcf8f3;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 1200px) {
+    #group {
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.vertebrates-image {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+#topic {
+    margin: auto;
+    width: 80%;
+}
+
+.vertebrates {
+    margin: 10% 10% 10%;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    .vertebrates {
+        margin: 40px auto;
+        width: 30%;
+    }
+}
+
+.vertebrate-desc {
+    text-align: center;
+}
+
+.vertebrate-img {
+    text-align: center;
+    margin: 10% auto;
+}
+
+hr {
+    color: grey;
+    width: 40%;
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 6px;
+    border-left: none;
+    border-right: none;
+    opacity: 0.85;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+    hr {
+        margin: 50px 40% 20px;
+        width: 20%;
+        border-width: 10px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .heading-div {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .floater {
+        margin-left: 35%;
+        width: 30%;
+        padding-bottom: 20%;
+    }
+    .vertebrate-desc {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .vertebrate-desc {
+        font-size: 1.5rem;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .vertebrates-image {
+        height: 300px;
+        width: 300px;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #welcome {
+        padding-bottom: 50px;
+    }
+}

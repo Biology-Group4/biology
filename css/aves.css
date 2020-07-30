@@ -1,0 +1,45 @@
+.aves {
+    text-align: center;
+}
+
+.aves-title {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.bird {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.bird:hover {
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.5);
+}
+
+.bird-para {
+    width: 90%;
+    margin: 25px auto 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.first-img {
+    margin-top: 35px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 35px;
+    }
+    .first-img {
+        margin-top: 0;
+    }
+    .aves-title {
+        font-size: 3rem;
+    }
+}
