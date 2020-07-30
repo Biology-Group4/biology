@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio Art Integration</title>
+    <!-- Animation CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;500;600;800;900&family=Noto+Sans+TC:wght@400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- StylesSheets -->
+    <link rel="stylesheet" href="css/title.css" />
+    <link rel="stylesheet" href="css/pisces.css" />
+    <link rel="stylesheet" href="css/aves.css" />
+    <link rel="stylesheet" href="css/cyclostomata.css" />
+    <link rel="stylesheet" href="css/amphibia.css">
+    <link rel="stylesheet" href="css/reptilia.css">
+    <link rel="stylesheet" href="css/mammalia.css">
+    <link rel="stylesheet" href="css/team-members.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <!-- BootstrapJquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <style>
+        @media only screen and (min-width:1200px) {
+            .modal-button {
+                height: 40px;
+            }
+            #cyclostomata {
+                background-color: #ffffff;
+                padding: 50% 20%;
+            }
+        }
+    </style>
+    <!-- BootstrapJquery CDN -->
+    <div style="background-color: #87dfd6;">
+        <section id="welcome">
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="" class="navbar-brand animate__animated animate__flipInY">
+                    <div style="display: inline-flex;" class="nav-title-bar">Group 4</div>
+                </a>
+                <button class="navbar-toggler" type="button" name="button" data-toggle="collapse" data-target="#navbar-collapsable">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="navbar-collapse collapse" id="navbar-collapsable">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="" class="nav-links">Pisces</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-links">Aves</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-links">Amphibia</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-links">Reptilia</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-links">Mammalia</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Heading -->
+            <div class="heading-div">
+                <h1 id="group" style="font-weight: 900;" class="animate__animated animate__backInDown">
+                    Art Integration group 4
+                </h1>
+                <hr />
+            </div>
+            <!-- Description -->
+            <div id="topic">
+                <h2 class="vertebrates">Vertebrates</h2>
+                <div class="vertebrate-img">
+                    <img src="vertebrates.jpg" alt="" class="vertebrates-image" />
+                </div>
+                <p class="vertebrate-desc">
+                    These animals have a true vertebral column and internal skeleton, allowing a completely different distribution of muscle attachment points to be used for movement. Vertebrates are bilaterally symmetrical, triploblastic, coelomic and segmented, with complex
+                    differentiation of body tissues and organs.
+                </p>
+            </div>
+        </section>
+        <!-- Pisces -->
+        <section id="pisces">
+            <div class="fish-title">
+                <h3>Pisces</h3>
+            </div>
+            <!-- Carousel -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="fish">
+                            <img class="cod" src="images/cod.jpg" alt="cod" />
+                            <p class="fish-desc">
+                                These are fish. They are exclusively aquatic animals. Their skin is covered with scales/ plates. They obtain oxygen dissolved in water by using gills. The body is streamlined, and a muscular tail is used for movement. They are cold-blooded and their hearts
+                                have only two chambers, unlike the four that humans have.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="fish">
+                            <img src="images/pisces.jpg" class="fishes" alt="...fishes" />
+                            <p class="fish-desc">
+                                They lay eggs. We can think of many kinds of fish, some with skeletons made entirely of cartilage, such as sharks, and some with a skeleton made of both bone and cartilage, such as tuna or rohu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Aves -->
+        <section class="aves">
+            <h3 class="aves-title">Aves</h3>
+            <div class="grid">
+                <div class="row-no-boots">
+                    <img class="bird first-img" src="images/aves.jpg" alt="" />
+                    <p class="bird-para">
+                        These are warm-blooded animals and have a four-chambered heart. They lay eggs.
+                    </p>
+                </div>
+                <div class="row-no-boots">
+                    <img class="bird" src="images/duck.jpg" alt="" />
+                    <p class="bird-para">
+                        There is an outside covering of feathers, and two forelimbs are modified for flight.
+                    </p>
+                </div>
+                <div class="row-no-boots">
+                    <img class="bird" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1wVvpnB-7tbH116Abzy7yGW08AoDOxJy9mg&usqp=CAU" alt="" />
+                    <p class="bird-para">
+                        They breathe through lungs. All birds fall in this category.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- CycloStomata -->
+        <section class="cyclostomata">
+            <div style="height: 20px;"></div>
+            <h3 style="text-align: center;margin-bottom: 30px;">CycloStomata</h3>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary modal-button btn-block" data-toggle="modal" data-target="#exampleModal">
+            Take A Look
+          </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">CycloStomata</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="cyclo" src="https://alchetron.com/cdn/cyclostomata-7a98e24b-6d2e-4f18-8024-4e0372e7030-resize-750.jpeg" alt="" />
+                            <p class="cyclo-para">
+                                Cyclostomes are jawless vertebrates. They are characterised by having an elongated eel-like body, circular mouth, slimy skin and are scaleless.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                  </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary modal-button btn-block" data-toggle="modal" data-target="#cycoModal" style="margin-top: 20px;">
+            See Another
+          </button>
+
+            <div style="height: 20px;"></div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="cycoModal" tabindex="-1" role="dialog" aria-labelledby="cycoModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="cycoModalLabel">CycloStomata</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="cyco-img" src="images/cyco.jpg" alt="" />
+                            <p>
+                                They are ectoparasites or borers of other vertebrates. Petromyzon (Lamprey) and Myxine (Hagfish) are examples.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                              Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="amphibia">
+            <div style=" background-color: #87DFD6;text-align: center;" class="jumbotron  jb">
+                <h1 style="text-align: center" class="display-4 ">Amphibia</h1>
+                <img class="amp-img" src="images/amphibia.jpg" alt="">
+                <p style=" line-height: 1.5; margin-top: 40px;font-size: 2rem;" class="lead margin-lead">The vertebrate Class Amphibia contains 3 Orders and approximately 7600 species that are distributed globally with the exception of Antarctica.</p>
+                <hr class="my-4">
+                <p class="amp-cont" style=" line-height: 1.5;font-size: 1.5rem;">These animals differ from the fish in the lack of scales, in having mucus glands in the skin, and a three-chambered heart. Respiration is through either gills or lungs. They lay eggs. These animals are found both in water and on land.
+                    Frogs, toads and salamanders are some examples
+                </p>
+                <p class="lead mg-but">
+                    <a class="btn btn-dark btn-lg" href="https://animals.sandiegozoo.org/animals/amphibians" target="_blank" role="button">Learn more</a>
+                </p>
+            </div>
+        </section>
+        <section id="reptilia">
+            <h1 class="rpt" style="font-size: 3rem;height: 60%;font-weight: 700">Reptilia</h1>
+            <div class="card-deck pat-on-every-side">
+                <div class="card">
+                    <img src="images/reptilia.jpg" class="card-img-top sq-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Reptile, any member of the class Reptilia, the group of air-breathing vertebrates that have internal fertilization, amniotic development, and epidermal scales covering part or all of their body.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/king-snake.jpg" class="card-img-top sq-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            These animals are cold-blooded, have scales and breathe through lungs. While most of them have a three-chambered heart, crocodiles have four heart chambers.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/turtle.jpg" class="card-img-top sq-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">They lay eggs with tough coverings and do not need to lay their eggs in water, unlike amphibians. Snakes, turtles, lizards and crocodiles fall in this category</p>
+
+                    </div>
+                </div>
+                <div style="height: 50px;"></div>
+            </div>
+            <!-- <div style="height: 25px;" class="padding-div"></div> -->
+        </section>
+        <section id="mammalia">
+            <div class="all-about-mammals">
+                <h3 class="mammal-title">Mammalia</h3>
+                <div class="mammals-img-div">
+                    <img class="mammal-img" src="https://gifts.worldwildlife.org/gift-center/Images/extra-large-species-photo/extra-large-Duck-billed-Platypus-photo.jpg" alt="">
+                    <img class="mammal-img" src="https://i.pinimg.com/originals/53/0f/88/530f8895bc4b1f0887437d91c19880fe.jpg" alt="">
+                    <img class="mammal-img" src="images/meerkat.jpg" alt="">
+                </div>
+
+                <p class="mammal-para">
+                    Mammals are warm-blooded animals with four-chambered hearts. They have mammary glands for the production of milk to nourish their young. Their skin has hairs as well as sweat and oil glands. Most mammals familiar to us produce live young ones.</p>
+                <p>
+                    <button class="btn btn-block btn-primary learn-more-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Learn More
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body mammals">
+                        <p class="mammal-para learn-more-para">However, a few of them, like the platypus and the echidna lay eggs, and some, like kangaroos give birth to very poorly developed young ones. Some examples are shown in</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div style="background-color: #fff;">
+            <section class="team-members">
+                <div style="height: 20px;"></div>
+                <h3 class="team-title">Team Members</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <h4>1. Krish</h4>
+                    </div>
+                    <div class="team-member">
+                        <h4>2. Mohammed Mubashir Hasan</h4>
+                    </div>
+                    <div class="team-member">
+                        <h4>3. Shambhavi</h4>
+                    </div>
+                    <div class="team-member">
+                        <h4>4. Ankit</h4>
+                    </div>
+                    <div class="team-member">
+                        <h4>5. Siddarth Govind</h4>
+                    </div>
+                    <div class="team-member">
+                        <h4>6. Madhav</h4>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p class="copyright">&copy; 2020 Bio Group4</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark vid" data-toggle="modal" data-target="#thanku">
+  Thank You
+</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="thanku" tabindex="-1" role="dialog" aria-labelledby="thanks" aria-hidden="true">
+                    <div class="modal-dialog" style="background-color: #fff; color: black">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="thanks">Thank You</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                Thanks For checking out our Website.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video tabindex="-1" class="water videos" webkit-playsinline="" playsinline="" controlslist="nodownload" src="https://r2---sn-8vq54voxpo-jj0e.googlevideo.com/videoplayback?expire=1596037811&amp;ei=U0YhX_b-K87KvATY0bTACQ&amp;ip=42.110.136.158&amp;id=o-AFxk-4BHxECbsJ2aDdcWtcjn9KsNze3kuNTfMUEm3INZ&amp;itag=18&amp;source=youtube&amp;requiressl=yes&amp;mh=VG&amp;mm=31%2C29&amp;mn=sn-8vq54voxpo-jj0e%2Csn-pqx5jxaa0a5g-cvhl&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=2&amp;pl=22&amp;initcwndbps=143750&amp;vprv=1&amp;mime=video%2Fmp4&amp;gir=yes&amp;clen=6553161&amp;ratebypass=yes&amp;dur=122.415&amp;lmt=1577937511329065&amp;mt=1596016061&amp;fvip=2&amp;fexp=23883098&amp;c=MWEB&amp;txp=5431432&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AG3C_xAwRQIhALIWWZ8gXx5GRFJGcmn74q6SaEOaFmUL35Zd-mhG82WQAiBbaSuArPpnWZ1w0icFmf5CxTczmCsuLSmwqk5d9R8PEA%3D%3D&amp;sig=AOq0QJ8wRAIgdkRfh2bgqCfbpQ5zFodynpPSc5UOAQyMOXbPoorSRLQCIA655UPeP4IRlY7cHQDaXGGpEUNX9AQIer3y8apuUkFV&amp;cpn=4Rf6089jLP02zivE&amp;cver=2.20200728.05.00&amp;ptk=youtube_single&amp;oid=j-kzZLfTxkpSeiLsPVbDMg&amp;ptchn=nTB8uNxND40iwvPiyzpnWw&amp;pltype=content"
+                    style="left: 0px; top: 0px;" controls></video>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+<script class="jquery " src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+<script src="index.js "></script>
+<script>
+    $(".carousel").carousel({
+        pause: 'hover'
+    });
+</script>
+
+</html>
+
+</html>
