@@ -1,1 +1,1 @@
-The completed site can be seen  <a href="https://innovo-corp.github.io/biology-stuff/">here</a>
+The completed site can be seen  <a href="https://innovo-inc.github.io/biology-stuff/">here</a>
